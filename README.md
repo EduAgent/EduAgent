@@ -20,3 +20,8 @@ More details are coming soon...
 #### Warning
 
 - Due to the massive contextual data as input, each agent simulation will cost about 0.2 USD with GPT 4 and 0.02 USD with GPT 3.5. Running the whole N = 310 agents for experiment one or N = 705 agents for experiment two will result in high cost. Therefore, be sure to set your suitable agent number.
+
+
+#### TODO
+
+- Some variables in the codes are not exactly the same as depicted in the paper. We will update them soon.
