@@ -24,4 +24,4 @@ More details are coming soon...
 
 #### TODO
 
-- Some variables in the codes are not exactly the same as depicted in the paper. We will update them soon.
+- Some variables in the codes and datasets are not exactly the same as depicted in the paper. We will update them soon.
