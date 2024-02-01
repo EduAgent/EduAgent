@@ -1,0 +1,311 @@
+video_id,group_id,student_id,gender,age,major,education,ML_familarity,ML_Experience,ML_bg_rate
+1,control,136,Male,23,Computer Science,Undergraduate (1st year),Kind of,No,2
+1,control,140,Female,24,technical management,Graduate (MS),Kind of,No,1
+1,control,142,Female,33,,Some college no degree,Kind of,No,1
+1,control,146,Others,25,Public Health,Graduate (MS),No,No,1
+1,control,148,Male,24,Self-Employed,Undergraduate (1st year),No,No,2
+1,control,149,Male,40,criminal justice,Undergraduate (4th year or above),No,No,1
+1,control,153,Others,33,Computer Science and Engineering,Undergraduate (4th year or above),No,No,1
+1,control,154,Male,26,Animal Physiology. ,Undergraduate (4th year or above),Yes,Kind of,3
+1,control,153,Others,33,Computer Science and Engineering,Undergraduate (4th year or above),No,No,1
+1,control,155,Female,37,Sociology,Undergraduate (4th year or above),Yes,No,2
+1,control,158,Female,37,psychology,Undergraduate (4th year or above),No,Yes,3
+1,control,163,Male,19,Finance,Undergraduate (3rd year),Kind of,No,2
+1,control,160,Female,29,English,Undergraduate (4th year or above),No,No,1
+1,control,164,Male,32,Medicine,MD,No,No,2
+1,control,161,Male,33,Finance,High school,No,No,2
+1,control,167,Female,28,Nutrition,Graduate (MS),No,No,2
+1,control,165,Male,36,Automotive Technology,High school,Kind of,No,1
+1,control,175,Prefer not to say,20,N/a,High school,Kind of,Kind of,3
+1,control,179,Male,32,high school,High school,No,No,3
+1,control,178,Female,37,Psychology,Undergraduate (4th year or above),Kind of,No,2
+1,control,176,Others,24,English,Undergraduate (3rd year),No,No,1
+1,control,181,Male,38,Network Specialist ,Undergraduate (2nd year),Kind of,No,2
+1,control,186,Female,32,Education,Undergraduate (2nd year),No,No,3
+1,control,191,Male,20,Mechanical Engineering,Undergraduate (3rd year),No,No,2
+1,feedback,201,Male,40,Business Administration,Graduate (MS),No,No,1
+1,feedback,202,Male,21,,High school,No,No,1
+1,feedback,204,Female,20,Psychology,Undergraduate (2nd year),No,No,1
+1,feedback,207,Female,32,english,Undergraduate (4th year or above),No,No,1
+1,feedback,209,Male,40,Biochemistry,Graduate (PhD),Yes,No,2
+1,feedback,211,Female,28,Broadcast journalism,Graduate (JD),Kind of,No,2
+1,feedback,212,Female,34,English,Graduate (MS),Kind of,No,1
+1,feedback,208,Male,35,Psychology,Undergraduate (4th year or above),Kind of,No,2
+1,feedback,216,Male,32,Computer Science,Undergraduate (4th year or above),Yes,Yes,3
+1,feedback,213,Female,34,MOM,Undergraduate (2nd year),No,No,1
+1,feedback,217,Female,27,Digital Forensics,Undergraduate (4th year or above),Kind of,No,2
+1,feedback,218,Male,29,computer information technology,Undergraduate (2nd year),Kind of,No,1
+1,feedback,217,Female,27,Digital Forensics,Undergraduate (4th year or above),Kind of,No,2
+1,feedback,220,Prefer not to say,31,writing,Undergraduate (4th year or above),Kind of,No,2
+1,feedback,228,Female,22,English,Undergraduate (4th year or above),Yes,No,1
+1,feedback,234,Male,30,Molecular Biology,Undergraduate (4th year or above),Kind of,No,1
+1,feedback,230,Female,36,,Undergraduate (1st year),No,No,1
+1,feedback,233,Male,33,General,High school,Kind of,No,2
+1,feedback,238,Female,32,History,Graduate (MS),No,No,1
+1,feedback,238,Female,32,History,Graduate (MS),No,No,1
+1,feedback,240,Male,21,Computer Engineering,Undergraduate (2nd year),Kind of,No,1
+1,feedback,245,Male,30,History,Graduate (PhD),No,No,1
+1,feedback,244,Male,23,,High school,No,No,1
+1,feedback,246,Male,35,information security,Undergraduate (3rd year),Yes,No,3
+1,feedback,241,Male,33,Bachelors in Computer Science,Undergraduate (4th year or above),Kind of,Yes,2
+1,feedback,256,Male,31,Liberaal Arts,AA,No,No,2
+1,feedback,257,Female,25,English,Undergraduate (3rd year),No,No,1
+1,feedback,258,Others,27,General Biology,Undergraduate (4th year or above),No,No,1
+1,feedback,260,Male,27,Biology,Undergraduate (4th year or above),No,No,1
+1,feedback,262,Male,29,Government and International Politics,Professional Degree,Kind of,No,1
+2,control,268,Female,29,Psychology,Undergraduate (4th year or above),No,No,1
+2,control,269,Male,23,Mechanical Engineering,Undergraduate (4th year or above),Yes,No,2
+2,control,272,Female,25,Graphic Design,Undergraduate (4th year or above),No,No,1
+2,control,273,Female,21,Communication Disorders and Sciences,Undergraduate (4th year or above),No,No,1
+2,control,274,Female,30,Psychology,Undergraduate (4th year or above),Kind of,No,2
+2,control,278,Female,22,Spanish,Undergraduate (4th year or above),No,Kind of,1
+2,control,280,Female,38,Digital Media,Undergraduate (2nd year),Kind of,No,2
+2,control,283,Male,19,Business,Undergraduate (2nd year),No,No,1
+2,control,279,Male,18,Mechanical Engineering,High school,No,No,1
+2,control,282,Male,36,Psychology,Undergraduate (4th year or above),No,No,2
+2,control,288,Female,31,Psychology,Undergraduate (3rd year),No,No,1
+2,control,290,Female,21,Biology,Undergraduate (3rd year),Kind of,No,1
+2,control,292,Male,32,construction,High school,No,No,4
+2,control,299,Female,22,Nursing,Undergraduate (4th year or above),No,No,2
+2,control,298,Male,18,Business,High school,No,No,1
+2,control,297,Female,40,High School Diploma,High school,Yes,Kind of,2
+2,control,295,Female,38,graphic design,Undergraduate (2nd year),No,No,2
+2,control,304,Male,37,Social sciences,Graduate (MS),No,No,2
+2,control,305,Male,24,Business Administration,Undergraduate (4th year or above),Kind of,No,1
+2,control,305,Male,24,Business Administration,Undergraduate (4th year or above),Yes,No,1
+2,control,302,Male,28,Business management,Undergraduate (4th year or above),No,No,1
+2,control,311,Female,23,Nursing,Undergraduate (3rd year),No,No,1
+2,control,314,Male,31,Education,Graduate (MS),Yes,Yes,3
+2,control,320,Male,24,Medical Physics,Graduate (MS),Yes,No,1
+2,control,318,Female,26,Zoology,Professional (DVM),No,No,1
+2,control,319,Female,38,Psychology,Undergraduate (4th year or above),No,No,1
+2,control,322,Male,29,Biology,MD,Kind of,No,2
+2,control,325,Female,33,,High school,Kind of,No,1
+2,control,323,Male,24,Chemistry,Undergraduate (4th year or above),No,No,1
+2,control,324,Female,35,Business,Undergraduate (2nd year),No,No,1
+2,control,321,Female,33,psychology,Undergraduate (2nd year),No,No,1
+2,control,327,Male,34,MBA,Graduate (MS),No,Kind of,2
+2,control,329,Male,21,Musical Theatre Performance (BFA),Undergraduate (4th year or above),Kind of,No,2
+2,control,330,Female,22,,High school,Kind of,No,2
+2,control,331,Male,24,Neuroscience,Undergraduate (4th year or above),Kind of,No,2
+2,control,332,Female,39,,High school,Kind of,No,2
+3,control,334,Female,30,Latin American Studies,Undergraduate (4th year or above),No,No,1
+3,control,337,Male,39,none,High school,No,No,1
+3,control,338,Others,18,Music,Undergraduate (1st year),Yes,No,3
+3,control,341,Female,27,Political Science,Undergraduate (4th year or above),No,No,1
+3,control,342,Male,28,MBA,Undergraduate (4th year or above),No,No,1
+3,control,349,Male,33,Commmuncations,Undergraduate (4th year or above),Kind of,No,1
+3,control,352,Male,22,Biology,Undergraduate (2nd year),No,No,2
+3,control,361,Female,24,undergrad,High school,Yes,No,1
+3,control,366,Others,30,music,Undergraduate (4th year or above),No,No,1
+3,control,362,Male,23,Cinema Studies,Undergraduate (4th year or above),No,No,1
+3,control,368,Male,29,biology,Undergraduate (4th year or above),Kind of,Kind of,2
+3,control,369,Male,25,Business,Undergraduate (1st year),Kind of,No,2
+3,control,377,Others,29,iphy,Graduate (MS),Kind of,Kind of,2
+3,control,381,Male,25,Finance,High school,No,No,1
+3,control,382,Female,22,english,Undergraduate (2nd year),No,No,1
+3,control,384,Female,26,"Informatics, Spanish",Undergraduate (4th year or above),Kind of,No,2
+3,control,386,Female,24,Employed,High school,No,No,2
+3,control,388,Male,30,Ba,Undergraduate (4th year or above),Kind of,Kind of,2
+3,control,394,Others,39,none,High school,Kind of,No,2
+3,control,392,Prefer not to say,28,Chem,Undergraduate (1st year),No,No,2
+3,control,398,Male,35,Law,Undergraduate (4th year or above),Kind of,Kind of,3
+3,control,399,Female,37,Math,Undergraduate (4th year or above),Yes,No,3
+3,control,402,Male,36,English ,Graduate (MS),Yes,Kind of,3
+3,control,402,Male,36,English,Graduate (MS),Yes,No,3
+3,control,408,Female,28,None,High school,Yes,Kind of,2
+3,control,409,Male,40,,High school,Kind of,No,2
+3,control,410,Male,33,math,Graduate (MS),Kind of,No,2
+3,control,411,Female,22,communications,High school,Kind of,No,2
+3,control,414,Female,40,Floriculture,High school,No,No,2
+3,control,417,Male,37,Liberal Arts,Undergraduate (4th year or above),No,No,1
+3,control,423,Male,27,Physical Therapist,Graduate (PhD),Yes,Kind of,3
+3,control,425,Male,33,,High school,No,No,1
+4,control,432,Male,30,Engineering,Undergraduate (2nd year),No,No,1
+4,control,433,Female,34,Art; Education,Graduate (MS),No,No,1
+4,control,438,Female,29,Sports and Exercise Science,Undergraduate (4th year or above),No,No,2
+4,control,436,Female,39,Linguistics,Graduate (MS),No,No,2
+4,control,440,Male,30,Law,JD,Kind of,No,2
+4,control,445,Female,25,Psychology ,Undergraduate (4th year or above),No,No,1
+4,control,452,Male,27,criminal justice,Undergraduate (2nd year),Yes,Yes,4
+4,control,451,Female,22,Psychology,Undergraduate (4th year or above),No,No,2
+4,control,454,Male,18,business,Undergraduate (1st year),Yes,Yes,4
+4,control,447,Male,23,game design,Undergraduate (2nd year),No,No,2
+4,control,462,Male,22,Business Administration,Undergraduate (3rd year),No,No,1
+4,control,459,Male,27,Computer Science,High school,No,No,1
+4,control,465,Male,38,Industrial Engineering,Undergraduate (4th year or above),No,No,2
+4,control,463,Female,37,Criminal Justice,Undergraduate (4th year or above),Kind of,No,1
+4,control,467,Female,25,Psychology,Graduate (MS),No,No,1
+4,control,468,Others,25,,Undergraduate (4th year or above),Kind of,No,1
+4,control,461,Female,30,Sociology,Graduate (MS),No,No,2
+4,control,474,Female,24,speech therapy,Undergraduate (2nd year),Kind of,No,2
+4,control,466,Female,29,Psychology,Undergraduate (1st year),Kind of,No,1
+4,control,476,Female,33,Finance,Undergraduate (4th year or above),Kind of,No,2
+4,control,477,Female,21,Music,Undergraduate (3rd year),No,No,2
+4,control,472,Others,35,pharmacology,Graduate (PhD),Kind of,No,2
+4,control,478,Female,29,?,Graduate (MS),Kind of,No,2
+4,control,485,Female,32,Applied Psychology,Undergraduate (2nd year),Kind of,Kind of,3
+4,control,486,Male,33,None,High school,Yes,No,3
+4,control,479,Female,20,Biology,Undergraduate (4th year or above),No,No,1
+4,control,481,Female,23,None,High school,No,No,2
+4,control,492,Male,34,art,High school,No,No,1
+4,control,489,Others,32,Animal Sciences,Undergraduate (4th year or above),No,No,1
+4,control,485,Female,32,Applied Psychology,Undergraduate (2nd year),Kind of,Kind of,3
+4,control,493,Male,31,none,High school,No,No,1
+4,control,495,Female,28,Chemistry,Undergraduate (4th year or above),No,No,1
+4,control,497,Female,23,Environmental Studies,Undergraduate (4th year or above),Kind of,No,2
+4,control,498,Male,28,Information Security,Undergraduate (4th year or above),Kind of,No,1
+5,control,504,Female,19,Psychology,Undergraduate (2nd year),No,No,1
+5,control,506,Female,28,Community Psychology ,Undergraduate (4th year or above),Yes,No,1
+5,control,507,Female,37,Mgmt,Graduate (MS),No,No,1
+5,control,503,Female,21,Communication Media,Undergraduate (4th year or above),Yes,Kind of,3
+5,control,508,Male,28,Psychology,Undergraduate (4th year or above),No,No,2
+5,control,509,Female,29,Anthropology,Undergraduate (4th year or above),No,No,1
+5,control,510,Female,29,graphic design,Undergraduate (4th year or above),No,No,2
+5,control,513,Female,35,sales associate,High school,Yes,Kind of,3
+5,control,514,Female,26,Physician Assistant Studies,Graduate (MS),No,No,1
+5,control,515,Female,38,Psychology & International Relations,Undergraduate (4th year or above),Kind of,No,2
+5,control,518,Male,18,Economics,Undergraduate (1st year),No,No,1
+5,control,517,Female,25,,Graduate (MS),No,No,1
+5,control,523,Male,38,Finance,Undergraduate (4th year or above),No,No,1
+5,control,525,Female,39,accounting,Graduate (MS),Kind of,No,2
+5,control,526,Male,40,"Chemistry, math, english",Graduate (PhD),Yes,Kind of,3
+5,control,532,Female,20,Chemical Engineering,Undergraduate (2nd year),No,No,1
+5,control,521,Male,19,Finance,Graduate (MS),No,No,3
+5,control,527,Male,21,,Undergraduate (1st year),Yes,No,3
+5,control,537,Male,23,Mechanical Engineering,Undergraduate (4th year or above),No,No,1
+5,control,538,Others,20,,High school,Kind of,No,1
+5,control,544,Male,36,Public Health,Graduate (MS),No,No,1
+5,control,541,Male,30,Education,Undergraduate (2nd year),Kind of,No,2
+5,control,542,Female,35,psychology,Undergraduate (4th year or above),Kind of,No,1
+5,control,546,Female,28,Business Accounting and IT,Undergraduate (4th year or above),Yes,Yes,5
+5,control,548,Female,35,English,Graduate (MS),No,No,1
+5,control,555,Female,24,,High school,No,No,2
+5,control,552,Male,26,Finance,High school,No,No,2
+5,control,550,Female,26,History,Undergraduate (4th year or above),Yes,No,2
+5,control,558,Female,29,healthcare,Graduate (MS),No,No,1
+5,control,559,Female,44,Engineering,Undergraduate (1st year),Yes,No,2
+5,control,560,Male,34,IT Support,Undergraduate (4th year or above),No,No,1
+5,control,561,Male,33,,Undergraduate (1st year),No,No,1
+2,feedback,565,Female,40,none,some college ,No,No,1
+2,feedback,570,Male,38,Psychology,Graduate (MS),No,No,1
+2,feedback,574,Female,39,English,Undergraduate (4th year or above),No,No,2
+2,feedback,577,Female,27,"Neuroscience, Spanish",Undergraduate (4th year or above),No,No,1
+2,feedback,576,Male,19,Computer Science,Undergraduate (2nd year),Kind of,No,1
+2,feedback,578,Female,34,AMerican Studies,Undergraduate (4th year or above),Kind of,No,1
+2,feedback,579,Female,31,Horticulture,Graduate (MS),Kind of,No,2
+2,feedback,581,Male,35,psychology,Graduate (MS),Kind of,No,1
+2,feedback,583,Male,27,Accounting,Undergraduate (4th year or above),Kind of,No,2
+2,feedback,587,Male,23,Social Science,Undergraduate (4th year or above),Kind of,No,2
+2,feedback,590,Male,40,None,High school,No,No,1
+2,feedback,593,Female,34,Psychology,Undergraduate (4th year or above),No,No,2
+2,feedback,584,Male,40,None,High school,No,No,1
+2,feedback,597,Female,22,psychology,Graduate (MS),No,No,1
+2,feedback,590,Male,40,None,High school,No,No,1
+2,feedback,599,Male,22,Public Health,Undergraduate (4th year or above),No,No,1
+2,feedback,600,Female,31,Judaic Studies,Undergraduate (3rd year),No,Kind of,1
+2,feedback,603,Male,23,Engineering,High school,No,No,1
+2,feedback,605,Female,37,School Counseling ,Graduate (MS),No,No,1
+2,feedback,609,Male,26,computer science,Undergraduate (4th year or above),Yes,Yes,1
+2,feedback,608,Female,40,political science,Undergraduate (4th year or above),No,No,1
+2,feedback,611,Female,25,,"Some college, no degree",Kind of,No,2
+2,feedback,614,Male,27,Computer Science,Undergraduate (4th year or above),Yes,Yes,2
+2,feedback,613,Male,33,Sociology,Undergraduate (4th year or above),No,No,1
+2,feedback,619,Female,18,psychology,Undergraduate (1st year),Kind of,No,3
+2,feedback,621,Female,49,General Studies,Undergraduate (2nd year),Kind of,No,2
+2,feedback,623,Female,27,Business,Undergraduate (4th year or above),No,No,1
+2,feedback,624,Others,25,Anthropology,High school,No,No,1
+3,feedback,630,Male,32,Art,Undergraduate (4th year or above),No,No,2
+3,feedback,631,Male,30,Engineer,Undergraduate (3rd year),No,No,1
+3,feedback,633,Female,22,Environmental Education,Graduate (MS),No,No,1
+3,feedback,636,Female,30,Business Administration - Marketing,Undergraduate (4th year or above),Kind of,No,1
+3,feedback,637,Male,30,Biology,Graduate (MS),No,No,1
+3,feedback,639,Male,25,Computer Science,Undergraduate (2nd year),No,No,1
+3,feedback,638,Female,35,Communications,Undergraduate (4th year or above),No,No,2
+3,feedback,641,Male,38,mechanical engineering,Undergraduate (4th year or above),No,No,1
+3,feedback,642,Male,24,,High school,No,No,2
+3,feedback,643,Female,24,Psychology,Undergraduate (3rd year),No,No,2
+3,feedback,644,Male,21,BUSINESS,Undergraduate (4th year or above),Yes,No,3
+3,feedback,645,Female,22,,Undergraduate (4th year or above),Kind of,No,1
+3,feedback,646,Male,40,general,High school,Kind of,No,1
+3,feedback,649,Others,22,biology,Undergraduate (1st year),No,No,1
+3,feedback,651,Male,21,aviation,Undergraduate (4th year or above),Yes,Yes,2
+3,feedback,650,Male,27,Psychology,Undergraduate (4th year or above),Kind of,No,2
+3,feedback,653,Male,32,Industrial Engineering,Graduate (MS),No,No,1
+3,feedback,654,Others,21,BA Theatre and BFA Film Production ,Undergraduate (3rd year),Kind of,No,2
+3,feedback,658,Male,35,Accounting,Undergraduate (4th year or above),No,No,1
+3,feedback,661,Female,28,Studies,High school,No,No,1
+3,feedback,663,Female,21,Mathematics,Undergraduate (1st year),No,No,1
+3,feedback,667,Male,34,Biology,Graduate (PhD),No,No,1
+3,feedback,666,Male,37,public relation,Undergraduate (4th year or above),No,No,2
+3,feedback,672,Male,24,History,Undergraduate (2nd year),Yes,Kind of,3
+3,feedback,671,Male,23,psychology ,Undergraduate (1st year),No,No,1
+3,feedback,674,Male,28,psych,Undergraduate (4th year or above),No,No,1
+3,feedback,675,Others,25,,Undergraduate (3rd year),Kind of,No,2
+3,feedback,677,Male,31,Graphic Design,Undergraduate (4th year or above),Kind of,No,2
+3,feedback,678,Male,31,International Relations,Graduate (MS),Yes,No,2
+3,feedback,679,Female,22,,High school,Kind of,No,1
+3,feedback,680,Male,31,IT,Undergraduate (1st year),Kind of,No,2
+3,feedback,684,Female,34,,High school,No,No,2
+3,feedback,684,Female,34,,High school,No,No,2
+4,feedback,689,Female,31,teaching/education,Undergraduate (1st year),No,No,1
+4,feedback,690,Female,28,Nursing,Undergraduate (4th year or above),No,No,1
+4,feedback,692,Female,34,,Undergraduate (4th year or above),No,No,1
+4,feedback,694,Male,21,Marketing,Undergraduate (3rd year),Yes,No,1
+4,feedback,696,Male,20,Computer Science,Undergraduate (2nd year),Kind of,Kind of,2
+4,feedback,698,Female,23,animation,Undergraduate (3rd year),No,No,1
+4,feedback,699,Male,24,,Undergraduate (1st year),No,No,1
+4,feedback,702,Male,28,Supply Chain,Undergraduate (4th year or above),Yes,No,1
+4,feedback,701,Female,37,None,High school,No,No,1
+4,feedback,707,Male,40,Aviation,Undergraduate (4th year or above),Kind of,No,2
+4,feedback,711,Male,23,Business Administration,Community College,No,No,1
+4,feedback,716,Female,23,Biology,Undergraduate (4th year or above),Yes,No,2
+4,feedback,714,Male,31,Finance,Undergraduate (4th year or above),No,No,2
+4,feedback,714,Male,31,Finance,Undergraduate (4th year or above),No,No,1
+4,feedback,715,Male,22,Computer Science,High school,Yes,No,1
+4,feedback,722,Female,29,Applied Physiology and Kinesiology,Graduate (MS),Kind of,No,2
+4,feedback,721,Male,36,Linguistics,Graduate (MS),Kind of,No,2
+4,feedback,724,Female,38,none,High school,No,No,1
+4,feedback,725,Female,40,Accounting,Undergraduate (2nd year),No,No,1
+4,feedback,729,Male,28,Software Engineering,Undergraduate (4th year or above),Kind of,No,2
+4,feedback,732,Female,18,Communications,Undergraduate (1st year),No,No,2
+4,feedback,731,Male,30,Biology,Undergraduate (4th year or above),Yes,Yes,3
+4,feedback,735,Male,26,none,Undergraduate (1st year),No,No,1
+4,feedback,737,Male,30,Medicine,MD,No,No,1
+4,feedback,733,Male,40,,Graduate (MS),Kind of,No,2
+4,feedback,740,Male,29,Mass Communications - TV/Film,Undergraduate (4th year or above),Kind of,Kind of,3
+4,feedback,742,Female,24,Audio Production,Undergraduate (4th year or above),No,No,1
+4,feedback,744,Female,27,Journalism,Undergraduate (4th year or above),Kind of,No,2
+4,feedback,745,Male,39,"BS Biology, MS Biomaterials, DDS (dentistry)",Graduate (MS),Kind of,Kind of,3
+4,feedback,748,Male,38,IT,Graduate (MS),Yes,No,2
+4,feedback,749,Male,21,Human Rights,Graduate (MS),No,No,2
+4,feedback,750,Female,21,Biological Sciences,Undergraduate (3rd year),No,No,2
+4,feedback,751,Female,32,English,Undergraduate (4th year or above),No,No,2
+5,feedback,755,Male,27,Psychology,Undergraduate (4th year or above),No,No,1
+5,feedback,757,Female,26,Biochemistry,Undergraduate (4th year or above),No,No,1
+5,feedback,763,Female,40,German,Graduate (MS),No,No,2
+5,feedback,761,Female,38,BA in Music Therapy,Undergraduate (4th year or above),Kind of,No,1
+5,feedback,766,Others,30,Software Engineering,Undergraduate (4th year or above),Kind of,No,2
+5,feedback,769,Female,23,Biology,Undergraduate (4th year or above),Kind of,Yes,3
+5,feedback,770,Male,40,Accountuing,Undergraduate (1st year),No,No,1
+5,feedback,772,Female,22,History,Graduate (MS),No,No,1
+5,feedback,773,Male,31,Biology,Undergraduate (2nd year),No,No,1
+5,feedback,776,Female,35,Accounting,Undergraduate (4th year or above),No,No,1
+5,feedback,775,Male,36,General,Undergraduate (2nd year),No,No,1
+5,feedback,777,Male,37,Computer Information Systems,Undergraduate (4th year or above),No,No,1
+5,feedback,778,Male,32,History,Undergraduate (4th year or above),No,No,1
+5,feedback,781,Female,24,Speech Language Pathology,Undergraduate (4th year or above),Yes,Kind of,4
+5,feedback,784,Male,22,psychology,Undergraduate (4th year or above),No,No,1
+5,feedback,788,Female,31,None,High school,Kind of,No,2
+5,feedback,789,Female,35,English,Graduate (PhD),No,No,1
+5,feedback,790,Female,29,Medicine,MD,Kind of,No,2
+5,feedback,792,Female,28,Biology,Undergraduate (4th year or above),No,No,3
+5,feedback,798,Others,38,Journalism,Undergraduate (4th year or above),Yes,No,1
+5,feedback,801,Male,29,,Graduate (MS),Kind of,No,2
+5,feedback,802,Male,32,Comp Sci,Undergraduate (1st year),Kind of,No,1
+5,feedback,809,Male,18,Economics ,Undergraduate (1st year),No,No,2
+5,feedback,810,Female,31,Humanities,Graduate (MS),No,No,1
+5,feedback,815,Female,23,Kinesiology,Undergraduate (4th year or above),No,No,1
+5,feedback,814,Female,39,Astrophysics,Graduate (MS),No,No,1
+5,feedback,819,Male,23,Business Mangement ,Undergraduate (4th year or above),No,No,2
+5,feedback,822,Female,24,Not in college,High school,No,No,1
