@@ -6,7 +6,7 @@
 
 ##### To run the simulation
 
-- Be sure to set your own OpenAI API, Gemini API, and HuggingFace API in agent_model_run.py
+- Be sure to set your own OpenAI API key (line 18-19), Gemini API key (line 1198), and HuggingFace API key (line 1161) in agent_model_run.py
 - Change configuration dictionary according to your own settings in agent_model_run.py
 - run agent_model_run.py
 
