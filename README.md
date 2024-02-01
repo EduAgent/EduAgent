@@ -26,3 +26,4 @@
 #### TODO
 
 - Some variables in the codes and datasets are not exactly the same as depicted in the paper. We will update them soon.
+- We are optimizing the codes so that it is easier to understand the code structures.
