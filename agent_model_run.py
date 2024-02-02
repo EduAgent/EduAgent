@@ -579,7 +579,11 @@ class Avatar(object):
                 +'\n 2. your response for task 4 must be exactly the format below: \n Question ID: [id value], Question Choice: [choice]. '
                 +'\n Make sure you have the ID symbol after Question symbol and The [choice] must be only one of A,B,C,D without other words.'
                 +f'\n You MUST give response for each question.\n '
-                +'\n Your simulation of gaze, motor, cognitive states and question answering MUST be adapted to the student specific # persona # and Try to # diversify # your simulation according to # student personas #..'
+        )
+
+        if self.agent_config['memory_source'] == 'sim':
+            warning += (
+                '\n Your simulation of gaze, motor, cognitive states and question answering MUST be adapted to the student specific # persona # and Try to # diversify # your simulation according to # student personas #..'
                 +'\n For example, for question choice task, your goal is NOT to answer it correctly. Instead, you should mimic the specific student persona, gaze/motor and cognitive states to make the choice. For example, good students may make the correct choice while bad students may make the wrong choice. Similar rules apply to other tasks. '   
                 +'\n Your gaze DO NOT have to be the same as motor behaviors as well.'
                 +'\n You just need to give me responses of four tasks in the format above. Do not give any other output nor reasons.'
