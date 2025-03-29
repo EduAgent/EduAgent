@@ -1153,6 +1153,107 @@ class Avatar(object):
         with open(self.user_memory_file, 'w') as json_file:
             json.dump(self.agent_real_memory_stream, json_file, indent=4) 
 
+    def response_llm_llama(message_list, model_type, api_key, timeout=120):
+    
+        assert model_type in [1, 2]
+    
+        # Select Llama model endpoint
+        if model_type == 1:
+            API_URL = "https://api-inference.huggingface.co/models/meta-llama/Llama-3.1-8B-Instruct"
+        else:
+            API_URL = "https://api-inference.huggingface.co/models/meta-llama/Llama-3.1-70B-Instruct"
+    
+        headers = {"Authorization": f"Bearer {api_key}", "Content-Type": "application/json"}
+    
+        # Build conversation history correctly
+        conversation_history = "<|begin_of_text|>"
+    
+        for i, msg in enumerate(message_list):
+            if msg["role"] == "system":
+                conversation_history += f"<|start_header_id|>system<|end_header_id|> {msg['text']} <|eot_id|>"
+            elif msg["role"] == "user":
+                conversation_history += f"<|start_header_id|>user<|end_header_id|> {msg['text']} <|eot_id|>"
+            elif msg["role"] == "assistant":
+                conversation_history += f"<|start_header_id|>assistant<|end_header_id|> {msg['text']} <|eot_id|>"  # No [INST] for model responses
+    
+        json_body = {
+            "inputs": conversation_history.strip(),
+            "parameters": {"temperature": 0.001, "max_new_tokens": 2048}
+        }
+    
+        data = json.dumps(json_body)
+    
+        start_time = time.time()
+        response = ''
+        except_waiting_time = 1
+        max_waiting_time = 32
+        current_sleep_time = 0.5
+        while response == '' and time.time() - start_time < timeout:
+            try:
+                response = requests.post(API_URL, headers=headers, data=data)
+                response.raise_for_status()  # Ensure we catch API errors
+            except Exception as e:
+                print('error in _response_llm_gpt',e)
+                time.sleep(current_sleep_time)
+                if except_waiting_time < max_waiting_time:
+                    except_waiting_time *= 2
+                current_sleep_time = np.random.randint(0, except_waiting_time-1)
+    
+        end_time = time.time()
+        print("LLM response time:", end_time - start_time)
+    
+        try:
+            response_output = json.loads(response.content.decode("utf-8"))
+            response_str = response_output[0]["generated_text"]
+        except Exception as e:
+            print("Parsing error:", e)
+            response_str = ""
+    
+        return response_str
+
+    def response_llm_gemini(message_list,model_name,max_tokens,timeout):
+        message_list_new = []
+        for message_raw in message_list:
+            role = message_raw['role']
+            if role in ['system','user']:
+                role_new = 'user'
+            elif role == 'assistant':
+                role_new = 'model'
+            else:
+                raise ValueError(f'role {role} is not supported!')
+            message_list_new.append({'role':role_new,'content':message_raw['content']})
+        # Initialize the client
+        client = genai.Client(api_key='')
+    
+        # Convert message_list into the required history format
+        history = [types.Content(role=msg["role"], parts=[{"text": msg["content"]}]) for msg in message_list_new[:-1]]
+    
+        # Initialize the chat with the full history
+        chat = client.chats.create(model=model_name, history=history, config=types.GenerateContentConfig(max_output_tokens=max_tokens, temperature=0))
+    
+        response = ''
+        except_waiting_time = 1
+        max_waiting_time = 32
+        current_sleep_time = 0.5
+    
+        start_time = time.time()
+        while response == '' and time.time()-start_time < timeout:
+            try:
+                latest_message = message_list_new[-1]["content"]  # Last user input
+                response_raw = chat.send_message(latest_message)
+                response = response_raw.text
+    
+            except Exception as e:
+                print('error in _response_llm_gpt',e)
+                time.sleep(current_sleep_time)
+                if except_waiting_time < max_waiting_time:
+                    except_waiting_time *= 2
+                current_sleep_time = np.random.randint(0, except_waiting_time-1)
+        end_time = time.time()   
+        # print('llm response time: ',end_time-start_time)     
+        return response
+
+    
     def _response_llm_llama(self,sys_prompt,content_prompt,model_type,timeout=120):
         assert model_type in [1,2]
         except_waiting_time = 1
