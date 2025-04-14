@@ -27,3 +27,14 @@
 
 - Some variables in the codes and datasets are not exactly the same as depicted in the paper. We will update them soon.
 - We are optimizing the codes so that it is easier to understand the code structures.
+
+
+##### Please cite us if you find this repo is useful
+```bibtex
+@article{xu2024eduagent,
+  title={Eduagent: Generative student agents in learning},
+  author={Xu, Songlin and Zhang, Xinyu and Qin, Lianhui},
+  journal={arXiv preprint arXiv:2404.07963},
+  year={2024}
+}
+```
